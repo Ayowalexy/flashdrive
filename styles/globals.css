@@ -25,9 +25,18 @@ a {
   }
 }
 
+@media (max-width: 600px) {
+  .swiper-button-next:after, .swiper-button-prev:after {
+    font-size: 20px !important;
+    margin-top: -40px !important;
+  }
+}
 .swiper-button-next { 
   color: #F8CE58 !important; 
+  size: 20px !important;
 }
+
+
 
 .swiper-button-prev { 
   color: #F8CE58 !important; 

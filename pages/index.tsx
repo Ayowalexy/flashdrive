@@ -53,7 +53,7 @@ const Home: NextPage = () => {
       ) : (
         <div>
           <div className={styles.header}>
-            <Image src="/images/logo.png" width={100} height={50} />
+            <Image src="/images/logo.png" width={matches ? 200 : 100} height={matches ? 50 : 30} />
           </div>
           <div className={styles.container_}>
             <Swiper
