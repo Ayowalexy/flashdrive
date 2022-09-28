@@ -35,7 +35,7 @@ const Home: NextPage = () => {
   // console.log('data--', data)
   return (
     <div>
-      {true ? (
+      {showPreloader ? (
         <div className={styles.preloader_parent}>
           <div className={styles.preloader_}>
           <ul>
