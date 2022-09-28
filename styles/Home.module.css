@@ -5,9 +5,9 @@
   height: 80px;
   width: 100%;
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
   align-items: center;
-  padding-right: 30px;
+  /* padding-right: 30px; */
   background-color: #fffef0;
 }
 
@@ -133,6 +133,10 @@
   .grid {
     width: 100%;
     flex-direction: column;
+  }
+
+  .header {
+    height: 60px;
   }
 
   .images {
